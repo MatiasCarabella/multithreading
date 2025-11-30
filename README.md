@@ -72,23 +72,6 @@ g++ -std=c++17 -pthread lab1/simple_threads.cpp -o simple_threads
 - **Process Management** - Platform-specific implementations (`fork()` vs threads)
 - **Inter-Process Communication** - Pipes (Unix) and shared memory (Windows)
 - **Modern C++ Features** - Smart pointers, RAII, C++17 standards
-- **Clean Code Practices** - SOLID principles and readable code structure
-
-## 📚 Learning Path
-
-1. Start with **Lab 1** to understand basic threading concepts
-2. Progress to **Lab 2** for synchronization and process management
-3. Explore **Lab 3** for advanced IPC patterns
-
-## 🛠️ Best Practices Applied
-
-- No `using namespace std` - Explicit namespace usage for clarity
-- Smart pointers (`std::unique_ptr`) instead of raw pointers
-- RAII for resource management
-- `constexpr` for compile-time constants
-- Modern C++ random number generation
-- Exception handling and error checking
-- Clear naming conventions and documentation
 
 ## 📖 Additional Resources
 
@@ -100,14 +83,3 @@ g++ -std=c++17 -pthread lab1/simple_threads.cpp -o simple_threads
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👤 Author
-
-**Matías Carabella**
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
-
----
-
-⭐ If you find this repository helpful, please consider giving it a star!
