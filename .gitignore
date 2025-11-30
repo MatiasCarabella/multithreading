@@ -1,11 +1,23 @@
-# Ignore compiled files
-tp1/algorithm_1
-tp1/algorithm_2
-tp1/algorithm_3
-tp1/algorithm_4
-tp2/algorithm_1
-tp2/algorithm_2
-tp3/siete_y_medio_pipes
+# Ignore compiled files (Linux/Unix)
+lab1/simple_threads
+lab1/thread_array
+lab1/random_threads
+lab1/thread_class
+lab2/mutex_synchronization
+lab2/process_management
+lab3/card_game
 
-# Ignore .vscode folder
+# Ignore compiled files (Windows)
+lab1/*.exe
+lab2/*.exe
+lab3/*.exe
+
+# Ignore IDE folders
 .vscode
+.vs
+
+# Ignore temporary files
+*.o
+*.obj
+*.out
+*.tmp
